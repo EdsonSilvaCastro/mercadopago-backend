@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulario Registro</title>
+</head>
+<body>
+  <section class="form-register">
+    <h4>Formulario</h4>
+    <form action="http://sharkathon.one/addname" method="post" id="form-checkout">
+      <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+      <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+      <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+      <input class="botons" type="submit" value="Enviar">
+    </form>
+
+  </section>
+
+  <script src="https://sdk.mercadopago.com/js/v2"></script>
+
+  <script>
+    const mp = new MercadoPago('YOUR_PUBLIC_KEY');
+
+  </script>
+
+
+</body>
+</html>
